@@ -223,6 +223,7 @@ Jobs
     width: 90vw;
     display: grid;
     grid-template-columns: 200px 1fr;
+    /* -ms-grid-columns: 200px 1fr; */
     column-gap: 4rem;
   }
   .btn-container {

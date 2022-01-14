@@ -142,6 +142,7 @@ Reviews
 main {
   min-height: 100vh;
   display: grid;
+  display: -ms-grid;
   place-items: center;
 }
 .title {
@@ -193,6 +194,7 @@ main {
   width: 2.5rem;
   height: 2.5rem;
   display: grid;
+  display: -ms-grid;
   place-items: center;
   border-radius: 50%;
   transform: translateY(25%);
@@ -249,4 +251,9 @@ main {
 .random-btn:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
+}
+
+.icon {
+  font-size: 4rem;
+  color: red;
 }
